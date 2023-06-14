@@ -2,12 +2,12 @@ function [rho,u,p,E,grid] = make_grid
 
 %%% Initialize memory %%%
 %[DEFAULT] Setup Grid: (Boundary Grid):
-grid.Nx = 1000; % Only specified here
+grid.Nx = 100; % Only specified here
 grid.xmin = 0;
 grid.xmax = 1.0;
 grid.time = 0;
 grid.t_max = 0.2;
-grid.Output_interval = 1000;
+grid.Output_interval = 10000;
 Nx = grid.Nx;
 
 %[DEFAULT] Constants, updated in IC.m
